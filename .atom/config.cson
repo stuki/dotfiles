@@ -1,0 +1,21 @@
+'exception-reporting':
+  'userId': '1b857b94-a6c1-c9d7-7e49-ff19483ef804'
+'release-notes':
+  'viewedVersion': '0.94.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '26a3367c6cc3ba34cba701f71197e2b2418d3e2e'
+'editor':
+  'fontSize': 14
+  'fontFamily': 'Monaco'
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-light-ui'
+    'fizzy'
+  ]
+  'disabledPackages': [
+    'wrap-guide'
+  ]
+'tree-view': {}
