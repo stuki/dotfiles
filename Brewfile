@@ -1,4 +1,3 @@
-install livestreamer
 install bash-completion
 install git
 
