@@ -5,7 +5,7 @@ install git
 install caskroom/cask/brew-cask
 
 # Install Casks
-cask install alfred
+# cask install alfred
 cask install flux
 cask install virtualbox
 cask install vagrant
