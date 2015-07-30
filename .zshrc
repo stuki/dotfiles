@@ -7,7 +7,7 @@ export UPDATE_ZSH_DAYS=30
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git common-aliases)
+plugins=(git common-aliases node rails gem npm)
 
 source $ZSH/oh-my-zsh.sh
 
