@@ -1,0 +1,7 @@
+# APPS INSTALLED (mostly): vim git zsh nodejs npm golang wget virtualbox-guest-utils screen openssh redis firefox atom-editor
+
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+cp ./.* ~/
+
+cp -r ./.config ~/
