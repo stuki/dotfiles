@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Swap screen CCW
+# @raycast.title Swap screen CCW (option + shift + control + H)
 # @raycast.mode silent
 
 # Optional parameters:

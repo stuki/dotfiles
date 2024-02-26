@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Toggle float
+# @raycast.title Toggle float (option + shift + T)
 # @raycast.mode silent
 
 # Optional parameters:

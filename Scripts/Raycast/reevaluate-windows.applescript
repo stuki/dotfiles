@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Reevaluate windows
+# @raycast.title Reevaluate windows (option + shift + Z)
 # @raycast.mode silent
 
 # Optional parameters:

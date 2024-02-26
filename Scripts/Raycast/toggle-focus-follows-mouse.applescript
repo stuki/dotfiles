@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Toggle focus follows mouse
+# @raycast.title Toggle focus follows mouse (option + shift + control + X)
 # @raycast.mode silent
 
 # Optional parameters:

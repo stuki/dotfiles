@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Select tall layout
+# @raycast.title Select tall right layout (option + shift + A)
 # @raycast.mode silent
 
 # Optional parameters:

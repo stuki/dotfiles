@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Display current layout
+# @raycast.title Display current layout (option + shift + I)
 # @raycast.mode silent
 
 # Optional parameters:

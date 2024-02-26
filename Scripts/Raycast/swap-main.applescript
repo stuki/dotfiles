@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Swap main
+# @raycast.title Swap main (option + shift + ENTER)
 # @raycast.mode silent
 
 # Optional parameters:

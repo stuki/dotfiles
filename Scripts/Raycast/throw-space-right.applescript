@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Throw space right
+# @raycast.title Throw space right (option + shift + control + RIGHT)
 # @raycast.mode silent
 
 # Optional parameters:

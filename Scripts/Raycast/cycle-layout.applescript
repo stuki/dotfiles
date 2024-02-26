@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Cycle layout
+# @raycast.title Cycle layout (option + shift + SPACE)
 # @raycast.mode silent
 
 # Optional parameters:

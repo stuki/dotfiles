@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Select wide layout
+# @raycast.title Select wide layout (option + shift + S)
 # @raycast.mode silent
 
 # Optional parameters:

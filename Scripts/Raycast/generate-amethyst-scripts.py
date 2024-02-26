@@ -43,6 +43,14 @@ def mods_csv(mod):
     mods = mod1 if mod == 'mod1' else mod2
     return ', '.join([f"{mod} down" for mod in mods])
 
+# mod1|mod2 -> option down, shift down
+def mods_title(mod):
+    if mod != 'mod1' and mod != 'mod2':
+        raise ValueError(f"invalid mod: {mod}")
+
+    mods = mod1 if mod == 'mod1' else mod2
+    return ' + '.join([f"{mod}" for mod in mods])
+
 # h, j, k, l, space, return, left, right -> keystroke "h" | key code 49
 def key_cmd(key):
     if len(key) == 1:
@@ -53,18 +61,19 @@ def key_cmd(key):
     else:
         raise ValueError(f"invalid key: {key}")
 
-def to_sentence(name):
+def to_sentence(name, mod, key):
     title = name.replace('-', ' ')
     title = title.replace('ccw', 'CCW')
     title = title.replace('cw', 'CW')
     title = title[0].upper() + title[1:]
+    title = title + " (" + mods_title(mod) + " + " + key.upper() + ")"
     return title
 
 def generate_script(name, mod, key):
     try:
-        title = to_sentence(name)
         mods = mods_csv(mod)
         command = key_cmd(key)
+        title = to_sentence(name, mod, key)
         script = script_template.replace('<<title>>', title).replace('<<command>>', command).replace('<<mods>>', mods)
         
         __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))

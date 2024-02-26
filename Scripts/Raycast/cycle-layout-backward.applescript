@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Cycle layout backward
+# @raycast.title Cycle layout backward (option + shift + control + SPACE)
 # @raycast.mode silent
 
 # Optional parameters:

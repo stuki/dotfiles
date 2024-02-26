@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Select column layout
+# @raycast.title Select column layout (option + shift + F)
 # @raycast.mode silent
 
 # Optional parameters:

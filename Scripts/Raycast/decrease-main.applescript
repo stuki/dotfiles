@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Decrease main
+# @raycast.title Decrease main (option + shift + .)
 # @raycast.mode silent
 
 # Optional parameters:

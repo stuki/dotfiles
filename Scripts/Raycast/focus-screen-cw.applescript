@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Focus screen CW
+# @raycast.title Focus screen CW (option + shift + N)
 # @raycast.mode silent
 
 # Optional parameters:

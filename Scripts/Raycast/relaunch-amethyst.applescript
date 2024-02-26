@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Relaunch amethyst
+# @raycast.title Relaunch amethyst (option + shift + control + Z)
 # @raycast.mode silent
 
 # Optional parameters:

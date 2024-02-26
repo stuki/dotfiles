@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.packageName Amethyst
-# @raycast.title Swap CCW
+# @raycast.title Swap CCW (option + shift + control + J)
 # @raycast.mode silent
 
 # Optional parameters:
