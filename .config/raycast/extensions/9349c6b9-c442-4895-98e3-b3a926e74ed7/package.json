@@ -7,8 +7,7 @@
   "contributors": [
     "Aayush9029",
     "mathieudutour",
-    "urwrstkn8mare",
-    "ashokbaruaakas"
+    "urwrstkn8mare"
   ],
   "license": "MIT",
   "icon": "icon.png",
@@ -40,24 +39,6 @@
       "subtitle": "Brew",
       "description": "Upgrade brew formulae & casks",
       "mode": "no-view"
-    },
-    {
-      "name": "clean-up",
-      "title": "Clean Up",
-      "subtitle": "Brew",
-      "description": "Clean files and packages from the cache that are older than 120 days",
-      "mode": "no-view",
-      "preferences": [
-        {
-          "name": "withoutThreshold",
-          "title": "Clean Up",
-          "type": "checkbox",
-          "default": false,
-          "required": false,
-          "label": "Include --prune=all when cleaning",
-          "description": "Include --prune=all when cleaning files & packages from cache.\nThis option bypasses the 120 days threshold."
-        }
-      ]
     }
   ],
   "preferences": [
@@ -101,15 +82,6 @@
       "title": "Uninstall",
       "label": "Remove all files associated with a cask.",
       "description": "Run cask uninstall with the --zap option for a more complete uninstallation of files associated with cask.\nWARNING: This may remove files shared with other applications."
-    },
-    {
-      "name": "quarantine",
-      "type": "checkbox",
-      "required": false,
-      "default": true,
-      "title": "Quarantine",
-      "label": "Enable quarantine of downloads",
-      "description": "Enable or disable quarantine of files downloaded by brew"
     }
   ],
   "dependencies": {
