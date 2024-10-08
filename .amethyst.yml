@@ -296,4 +296,4 @@ screen-padding-bottom: 0
 restore-layouts-on-launch: true
 
 # true to display some optional debug information in the layout HUD (default false).
-debug-layout-info: f
+debug-layout-info: false
