@@ -10,3 +10,6 @@
 
 [merge]
 	conflictstyle = zdiff3
+[alias]
+    up = "!f() { git qc && git push; }; f"
+    qc = "!f() { git add -A && git commit -m \"up\"; }; f"

@@ -15,19 +15,18 @@
 
 # layouts - Ordered list of layouts to use by layout key (default tall, wide, fullscreen, and column).
 layouts:
-  - tall
-  - fullscreen
+  # - tall
   - tall-right
-  - wide
+  - fullscreen
+  # - wide
   # - two-pane
   # - middle-wide
   # - 3column-left
-  - 3column-middle
+  - middle-wide # The legacy name of "3column-middle"
   # - 3column-right
   # - 4column-left
   # - 4column-right
-  - column
-  # - row
+  - row
   # - floating
   # - widescreen-tall
   # - widescreen-tall-right
@@ -45,7 +44,41 @@ mod2:
   - option
   - shift
   - control
-  # - command
+  # - command 
+   
+select-tall-layout:
+  mod: ""
+  key: ""
+
+# Select wide layout
+select-wide-layout:
+  mod: ""
+  key: ""
+
+# Select column layout
+select-column-layout:
+  mod: ""
+  key: ""
+
+# Select tall right layout
+select-tall-right-layout:
+  mod: mod1
+  key: a
+
+# Select row layout
+select-row-layout:
+  mod: mod1
+  key: s
+
+# Select fullscreen layout
+select-fullscreen-layout:
+  mod: mod1
+  key: d
+
+# Select column layout
+select-middle-wide-layout:
+  mod: mod1
+  key: f
 
 # Commands:
 # special key values
@@ -83,29 +116,12 @@ expand-main:
 # Increase the number of windows in the main pane. Note that not all layouts respond to this command.
 increase-main:
   mod: mod1
-  key: ","
+  key: ','
 
 # Decrease the number of windows in the main pane. Note that not all layouts respond to this command.
 decrease-main:
   mod: mod1
-  key: "."
-
-# General purpose command for custom layouts. Functionality is layout-dependent.
-# command1:
-#   mod: <NONE>
-#   key: <NONE>
-# General purpose command for custom layouts. Functionality is layout-dependent.
-# command2:
-#   mod: <NONE>
-#   key: <NONE>
-# General purpose command for custom layouts. Functionality is layout-dependent.
-# command3:
-#   mod: <NONE>
-#   key: <NONE>
-# General purpose command for custom layouts. Functionality is layout-dependent.
-# command4:
-#   mod: <NONE>
-#   key: <NONE>
+  key: '.'
 
 # Focus the next window in the list going counter-clockwise.
 focus-ccw:
@@ -157,45 +173,6 @@ swap-main:
   mod: mod1
   key: enter
 
-# Move focus to the n-th screen in the list; e.g., focus-screen-3 will move mouse focus to the 3rd screen. Note that the main window in the given screen will be focused.
-#focus-screen-n:
-# focus-screen-<screen-number>:
-#   mod: mod1
-#   key: y
-# Move the currently focused window to the n-th screen; e.g., throw-screen-3 will move the window to the 3rd screen.
-# throw-screen-n:
-# throw-screen-<screen-number>:
-#   mod: mod1
-#   key: u
-# Move the currently focused window to the n-th space; e.g., throw-space-3 will move the window to the 3rd space.
-# throw-space-<screen-number>:
-#   mod: mod1
-#   key: i
-
-# Select tall right layout
-select-tall-layout:
-  mod: <NONE>
-  key: <NONE>
-
-select-tall-right-layout:
-  mod: mod1
-  key: a
-
-# Select wide layout
-select-wide-layout:
-  mod: mod1
-  key: s
-
-# Select fullscreen layout
-select-fullscreen-layout:
-  mod: mod1
-  key: d
-
-# Select column layout
-select-column-layout:
-  mod: mod1
-  key: f
-
 # Move the currently focused window to the space to the left.
 throw-space-left:
   mod: mod2
@@ -212,14 +189,14 @@ toggle-float:
   key: t
 
 # Display the layout HUD with the current layout on each screen.
-display-current-layout:
-  mod: mod1
-  key: i
+# display-current-layout:
+#   mod: mod1
+#   key: i
 
 # Turn on or off tiling entirely.
-toggle-tiling:
-  mod: mod1
-  key: t
+# toggle-tiling:
+#   mod: mod1
+#   key: t
 
 # Rerun the current layout's algorithm.
 reevaluate-windows:
@@ -227,9 +204,9 @@ reevaluate-windows:
   key: z
 
 # Turn on or off focus-follows-mouse.
-toggle-focus-follows-mouse:
-  mod: mod2
-  key: x
+# toggle-focus-follows-mouse:
+#   mod: mod2
+#   key: x
 
 # Automatically quit and reopen Amethyst.
 relaunch-amethyst:
@@ -253,7 +230,7 @@ window-margin-size: 10
 
 # The max number of windows that may be visible on a screen at one time before
 # additional windows are minimized. A value of 0 disables the feature.
-window-max-count: 4
+window-max-count: 0
 
 # The smallest height that a window can be sized to regardless of its layout frame (in px, default 0).
 window-minimum-height: 0
@@ -319,4 +296,4 @@ screen-padding-bottom: 0
 restore-layouts-on-launch: true
 
 # true to display some optional debug information in the layout HUD (default false).
-debug-layout-info: false
+debug-layout-info: f
